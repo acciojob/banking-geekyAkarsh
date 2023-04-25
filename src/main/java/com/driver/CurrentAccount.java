@@ -1,7 +1,11 @@
 package com.driver;
 
-import java.util.*;
+import lombok.Getter;
+import lombok.Setter;
 
+import java.util.*;
+@Getter
+@Setter
 public class CurrentAccount extends BankAccount{
     String tradeLicenseId; //consists of Uppercase English characters only
 

@@ -1,15 +1,16 @@
 package com.driver;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class StudentAccount extends BankAccount{
 
     String  institutionName;
 
     public String getInstitutionName() {
         return institutionName;
-    }
-
-    public void setInstitutionName(String institutionName) {
-        this.institutionName = institutionName;
     }
 
     public StudentAccount(String name, double balance, String  institutionName) {
